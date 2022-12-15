@@ -14,16 +14,19 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /* the text in header will display as inline-block */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* set the text .seo color to #d9dcd6  */
+
+/* setting the text .seo color to #d9dcd6  */
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* this is for  */
+
+/* styling navigation element inside the header class */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,11 +48,13 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/* this is a single line comment */
+
+/* Setting font size for all the paragaph elements in the page */
 p {
     font-size: 16px;
 }
-/* This is element style for image in class hero */
+
+/* This is element style for class hero which also adds a background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +63,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,13 +73,15 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* the elements of class content  */
+
+/* styling for class content  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
- /*  */
+
+ /* styling for benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,7 +92,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*  */
+
+/* styling for shared benefit-container class, which is shared by multiple article elements */
 .benefit-container {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +110,7 @@ p {
     max-width: 150px;
 }
 
+/* styling for shared content-card class, which is shared by multiple article elements */
 .content-card {
     margin-bottom: 20px;
     padding: 50px;
